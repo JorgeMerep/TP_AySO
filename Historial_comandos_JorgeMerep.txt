@@ -1,0 +1,138 @@
+sudo apt install bzip2
+sudo apt-get update
+sudo apt install --fix-missing
+sudo apt install bzip2
+cls
+clear
+id
+whoami
+clear
+sudo apt install bzip2
+sudo apt update
+man update
+history
+xev | grep keycode
+setxkbmap latam
+sudo apt update
+sudo apt upgrade
+sudo apt install bzip2
+df -h
+clear
+sudo apt install bzip2
+sudo apt upgrade
+clear
+Verifying archive integrity...  100%   MD5 checksums are OK. All good.
+Uncompressing VirtualBox 7.1.6 Guest Additions for Linux  100%  
+VirtualBox Guest Additions installer
+Removing installed version 7.1.6 of VirtualBox Guest Additions...
+VirtualBox Guest Additions: Starting.
+VirtualBox Guest Additions: Setting up modules
+VirtualBox Guest Additions: Building the VirtualBox Guest Additions kernel 
+modules.  This may take a while.
+VirtualBox Guest Additions: To build modules for other installed kernels, run
+VirtualBox Guest Additions:   /sbin/rcvboxadd quicksetup <version>
+VirtualBox Guest Additions: or
+VirtualBox Guest Additions:   /sbin/rcvboxadd quicksetup all
+VirtualBox Guest Additions: Building the modules for kernel 6.11.0-24-generic.
+This system is currently not set up to build kernel modules.
+Please install the gcc make perl packages from your distribution.
+VirtualBox Guest Additions: Running kernel modules will not be replaced until 
+the system is restarted or 'rcvboxadd reload' triggered
+VirtualBox Guest Additions: reloading kernel modules and services
+VirtualBox Guest Additions: kernel modules were not reloaded
+VirtualBox Guest Additions: kernel modules and services were not reloaded
+The log file /var/log/vboxadd-setup.log may contain further information.
+Press Return to close this window...
+clear
+sudo apt update
+sudo apt upgrade
+apt list --upgradable
+sudo apt install build-essential dkms linux-headers-$(uname -r) -y
+[200~echo $XDG_SESSION_TYPE
+echo $XDG_SESSION_TYPE
+lsmod | grep vboxguest
+systemctl status virtualbox-guest-utils
+systemctl status vboxadd
+localectl status
+sudo dpkg-reconfigure keyboard-configuration
+sudo systemctl restart keyboard-setup.service
+lsmod | grep -E 'vboxguest|vboxsf|vboxvideo'
+sudo apt update
+sudo apt install build-essential dkms linux-headers-$(uname -r)
+cd /media/$USER/VBox_GAs_*/   # Usá Tab para autocompletar
+sudo ./VBoxLinuxAdditions.run
+sudo restart
+sudo reset
+ls
+echo $XDG_SESSION_TYPE
+sudo reboot
+sudo apt update
+sudo apt install build-essential dkms linux-headers-$(uname -r)
+app list --upgradable
+sudo apt install deb name
+apt list --upgradable
+clear
+apt list --upgradable
+sudo apt full-upgrade -y
+sudo apt autoremove -y
+sudo reboot
+lsmod | grep vboxguest
+ls /media/ | grep VBox
+ls /media/yo/VBox*
+sudo sh /media/yo/VBoxLinuxAdditions.run
+cd /media/yo/VBoxLinuxAdditions.run
+reboot
+ssh-keygen
+cat id_ed25519.pub
+ls ~/.ssh
+cat ~/.ssh/id_ed25519.pub
+xclip -sel clip < ~/.ssh/id_ed25519.pub
+sudo apt install xclip
+xclip -sel clip < ~/.ssh/id_ed25519.pub
+ssh -T git@github.com
+xclip -sel clip < ~/.ssh/id_ed25519.pub
+cat ~/.ssh/id_ed25519.pub
+ssh -T git@github.com
+clear
+cd
+pwd
+mkdir repogit
+pwd
+cd repogit
+git clone git@github.com:JorgeMerep/TP_AySO.git
+sudo apt install git
+git clone git@github.com:JorgeMerep/TP_AySO.git
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/os-release
+clear
+man grep
+grep HOME_URL /etc/os-release
+grep -i HOME_URL /etc/os-release
+whoami
+echo “Usuario=$(whoami)” > datos_usuario.txt
+git add.
+git add .
+git config --global user.email "jorge221810@gmail.com"
+git config --global user.name "JorgeMerep"
+git commit -m "ADD: Agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+git push
+cpuinfo
+cpu-info
+sudo apt install cpuinfo
+cpu-info
+grep -m1 "model name" /proc/cpuinfo >> datos_usuarios.txt
+grep -m1 "model name" /proc/cpuinfo >> datos_usuario.txt
+git add .
+git commit -m "feat: Añadiendo información de CPU"
+cat <<EOF >> README.md
+Alumno: Jorge Merep
+División: 315 Turno: Noche
+EOF
+
+git add .
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+history -a
